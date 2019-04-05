@@ -1,0 +1,25 @@
+{
+  "name": "calculate-luhn-mod-n",
+  "version": "1.0.0",
+  "description": "Calculates Luhn Mod N check values",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfredmyers/calculate-luhn-mod-n.git"
+  },
+  "keywords": [
+    "Luhn"
+  ],
+  "author": "alfredmyers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfredmyers/calculate-luhn-mod-n/issues"
+  },
+  "homepage": "https://github.com/alfredmyers/calculate-luhn-mod-n#readme",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}

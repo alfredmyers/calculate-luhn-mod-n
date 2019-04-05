@@ -1,3 +1,5 @@
+'use strict';
+
 /* 
     Code based on https://en.wikipedia.org/wiki/Luhn_mod_N_algorithm
     with minimal modifications.
@@ -11,7 +13,7 @@ module.exports = function calculateLuhnModN(input, n) {
 
 	// Starting from the right and working leftwards is easier since 
 	// the initial "factor" will always be "2" 
-	for (var i = input.Length - 1; i >= 0; i--) {
+	for (var i = input.length - 1; i >= 0; i--) {
 		var codePoint = input[i];
 		var addend = factor * codePoint;
 
