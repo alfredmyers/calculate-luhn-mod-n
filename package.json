@@ -1,6 +1,6 @@
 {
   "name": "calculate-luhn-mod-n",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Calculates Luhn Mod N check values",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "Luhn"
   ],
   "author": "alfredmyers",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/alfredmyers/calculate-luhn-mod-n/issues"
   },
