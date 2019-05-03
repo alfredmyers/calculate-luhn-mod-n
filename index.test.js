@@ -14,7 +14,7 @@ const testData = [
 ];
 
 testData.forEach(item => {
-  test('', () => {
+  test('Luhn Mod 36', () => {
     expect(calculateLuhnMod36(item[input]))
       .toBe(item[expected]);
   });
@@ -22,14 +22,14 @@ testData.forEach(item => {
 
 
 //test based on algorithm description in https://en.wikipedia.org/wiki/Luhn_algorithm
-test('', () => {
+test('Luhn example from Wikipedia', () => {
   expect(calculateLuhnModN(Number.parseInt, codePoint => codePoint.toString(), 10, '7992739871'))
     .toBe('3');
 });
 
 //test based on algorithm example in https://en.wikipedia.org/wiki/Luhn_mod_N_algorithm
 const map = 'abcdef';
-test('', () => {
+test('Luhn Mod N example from Wikipedia', () => {
   expect(calculateLuhnModN(character => map.indexOf(character), codePoint => map[codePoint], map.length, 'abcdef'))
     .toBe('e');
 });
