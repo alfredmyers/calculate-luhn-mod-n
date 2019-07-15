@@ -4,6 +4,9 @@
   "description": "Calculates Luhn Mod N check values",
   "main": "index.js",
   "scripts": {
+    "postpublish": "git push origin --all; git push origin --tags",
+    "postversion": "npm publish",
+    "preversion": "npm test",
     "test": "jest --coverage"
   },
   "repository": {
