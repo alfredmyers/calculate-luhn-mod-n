@@ -15,23 +15,9 @@
  */
 
 /**
- * Maps a value to a code point.
- * @callback valueToCodePoint
- * @param {!T} value - a value (typically a character) to be mapped to a number.
- * @returns {number}
- */
-
-/**
- * Maps a code point to a value.
- * @callback codePointToValue
- * @param {!number} codePoint - numeric value of the code point.
- * @returns {T}
- */
-
-/**
  * Calculates Luhn Mod N control values
- * @param {!valueToCodePoint} codePointFromCharacter - Function that maps a value (typically a character) to a code point.
- * @param {!codePointToValue} characterFromCodePoint - Function that maps a code point to a value (typically a character).
+ * @param {!function(!T): number} codePointFromCharacter - Function that maps a value (typically a character) to a code point.
+ * @param {!function(number): T} characterFromCodePoint - Function that maps a code point to a value (typically a character).
  * @param {!number} n - modulo.
  * @param {!T[]} input - String of values (typically characters) for which the control value will be calculated.
  * @returns {T} - The control value.
