@@ -1,6 +1,6 @@
 {
   "name": "calculate-luhn-mod-n",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "Calculates Luhn Mod N check values",
   "main": "index.js",
   "scripts": {
