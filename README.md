@@ -1,6 +1,8 @@
 # calculate-luhn-mod-n
 
-![GitHub](https://img.shields.io/github/license/alfredmyers/calculate-luhn-mod-n.svg?style=flat) [![Build Status](https://travis-ci.org/alfredmyers/calculate-luhn-mod-n.svg?branch=master)](https://travis-ci.org/alfredmyers/calculate-luhn-mod-n)
+![GitHub](https://img.shields.io/github/license/alfredmyers/calculate-luhn-mod-n.svg?style=flat)
+![Node CI](https://github.com/alfredmyers/calculate-luhn-mod-n/workflows/Node%20CI/badge.svg)
+![Node.js Package](https://github.com/alfredmyers/calculate-luhn-mod-n/workflows/Node.js%20Package/badge.svg)
 
 Calculates Luhn Mod N check values
 
