@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/alfredmyers/calculate-luhn-mod-n#readme",
   "devDependencies": {
-    "jest": "^25.5.4"
+    "jest": "^26.6.3"
   }
 }
